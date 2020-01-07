@@ -1,4 +1,4 @@
-/* GENERAL */
+    /* GENERAL */
 
 * {
     margin: 0px;
@@ -10,7 +10,15 @@ body {
     font-size: 15px;
 }
 
-/* TITLES */
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none /* removes the bullet points */
+}
 
 h1 {
     font-family: 'Crete Round', serif;
@@ -22,4 +30,46 @@ h1 {
     color: darkorange;
 }
 
-/* HEADER */
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+    /* HEADER */
+
+hearder {
+    height: 120px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
