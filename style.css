@@ -10,5 +10,16 @@ body {
     font-size: 15px;
 }
 
+/* TITLES */
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: #444 /* equal #444444 */
+}
+
+.orange {
+    color: darkorange;
+}
 
 /* HEADER */
