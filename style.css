@@ -1,8 +1,8 @@
     /* GENERAL */
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -23,7 +23,12 @@ ul {
 h1 {
     font-family: 'Crete Round', serif;
     font-size: 45px;
-    color: #444 /* equal #444444 */
+    color: #444; /* equal #444444 */
+}
+
+h2 {
+    color: #444;
+    font-size: 55px;
 }
 
 .orange {
@@ -62,10 +67,24 @@ header nav ul li a {
     margin-right: 20px;
 }
 
+/* MAIN IMAGE */
+
+#main-image {
+    height: 580px;
+    background: url('images/main.jpg') center;
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 
 
-
+#test {
+    border: 2px;
+}
 
 
 
